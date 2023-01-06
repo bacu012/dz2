@@ -1,0 +1,74 @@
+:root {
+   --primary-background-color: #E5E5E5;
+   --primary-text-color: #757575;
+   --secondary-text-color: #212121;
+   --title-text-color:  #FFFFFF;
+   --accent-color: #2196F3;
+   --secondary-bg-color: #F5F4FA;
+}
+
+
+body{
+   background-color: var(--primary-background-color);
+   color: var(--primary-text-color);
+}
+
+.list{
+   list-style: none;
+}
+.site-nav .link{
+   color: var(--secondary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+   color: var(--accent-color);
+}
+
+.logo{
+   color: #000000;
+}
+
+.main-page{
+   color: var(--accent-color);
+}
+
+
+.auth-nav .nav{
+   color: rgba(117, 117, 117, 1);
+}
+.auth-nav .nav:hover,
+.auth-nav .nav:focus{
+   color: var(--accent-color);
+}
+
+
+.section-title{
+   color: var(--secondary-text-color);
+}
+
+.hero-title{
+   color: var(--title-text-color);
+}
+
+.hero-nav{
+   color: var(--title-text-color);
+   background-color: var(--accent-color);
+}
+
+.feature .title{
+   color: var(--secondary-text-color);
+}
+
+.feature .feature-nav{
+
+}
+
+.work .work-title{
+   color: var(--title-text-color);
+   background-color: rgba(47, 48, 58, 0.8);
+}
+
+.social-link .social:hover,
+.social-link .social:focus{
+   color: var(--accent-color);
+}
