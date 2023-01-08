@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./html/css/common.css" />
-    <link rel="stylesheet" href="./html/css/dz.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="./css/portfolu.css" />
+    <link rel="stylesheet" href="./css/dz.css" />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
+        <ul class="site-nav list">
           <li>
-            <a href="./dz.html"><span>Web</span>Studio</a>
+            <a href="/dz.html" class="logo"
+              ><span class="main-page">Web</span>Studio</a
+            >
           </li>
-          <li><a href="">Студия</a></li>
-          <li><a href="./portfolu.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="" class="link">Студия</a></li>
+          <li><a href="./portfolu.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
-        <ul>
+        <ul class="auth-nav list">
           <li>
-            <a href=""
+            <a href="" class="nav"
               ><img
                 src="./html/img/dz/envelope (hover).png"
                 alt=""
@@ -29,7 +35,7 @@
             >
           </li>
           <li>
-            <a href=""
+            <a href="" class="nav"
               ><img src="./html/img/dz/tel.png" alt="" />+38 096 111 11 11</a
             >
           </li>
@@ -37,11 +43,140 @@
       </nav>
     </header>
 
-    <h1>portfolu</h1>
+    <main>
+      <section class="filter">
+        <ul class="filter-main list">
+          <li><button type="button" class="filter-button">Все</button></li>
+          <li>
+            <button type="button" class="filter-button">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" class="filter-button">Приложения</button>
+          </li>
+          <li><button type="button" class="filter-button">Дизайн</button></li>
+          <li>
+            <button type="button" class="filter-button">Маркетинг</button>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <ul class="project list">
+          <li class="project-card">
+            <a href="">
+              <img src="./img portfolu/img.png" alt="tehnokryak" />
+              <h2 class="project-title">Технокряк</h2>
+              <p class="project-filter">Веб-сайт</p>
+              <p class="project-around">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </a>
+          </li>
+          <li class="project-card">
+            <a href=""
+              ><img src="./img portfolu/img(1).png" alt="Poster" />
+              <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+              <p class="project-filter">Дизайн</p>
+              <p class="project-around">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p></a
+            >
+          </li>
+          <li class="project-card">
+            <a href=""
+              ><img src="./img portfolu/img(2).png" alt="restoran" />
+              <h2 class="project-title">Ресторан Seafood</h2>
+              <p class="project-filter">Приложение</p>
+              <p class="project-around">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p></a
+            >
+          </li>
+          <li class="project-card">
+            <a href=""
+              ><img src="./img portfolu/img(3).png" alt="projectprime" />
+              <h2 class="project-title">Проект Prime</h2>
+              <p class="project-filter">Маркетинг</p>
+              <p class="project-around">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p></a
+            >
+          </li>
+          <li class="project-card">
+            <a href=""
+              ><img src="./img portfolu/img(4).png" alt="projectboxes" />
+              <h2 class="project-title">Проект Boxes</h2>
+              <p class="project-filter">Приложение</p>
+              <p class="project-around">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p></a
+            >
+          </li>
+          <li class="project-card">
+            <a href=""
+              ><img src="./img portfolu/img(5).png" alt="borders" />
+              <h2 class="project-title">Inspiration has no Borders</h2>
+              <p class="project-filter">Веб-сайт</p>
+              <p class="project-around">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p></a
+            >
+          </li>
+          <li class="project-card">
+            <a href=""
+              ><img src="./img portfolu/img(6).png" alt="izdanie" />
+              <h2 class="project-title">Издание Limited Edition</h2>
+              <p class="project-filter">Дизайн</p>
+              <p class="project-around">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p></a
+            >
+          </li>
+          <li class="project-card">
+            <a href=""
+              ><img src="./img portfolu/img(7).png" alt="lab" />
+              <h2 class="project-title">Проект LAB</h2>
+              <p class="project-filter">Маркетинг</p>
+              <p class="project-around">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p></a
+            >
+          </li>
+          <li class="project-card">
+            <a href=""
+              ><img src="./img portfolu/img(8).png" alt="buisnes" />
+              <h2 class="project-title">Growing Business</h2>
+              <p class="project-filter">Приложение</p>
+              <p class="project-around">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p></a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <footer>
       <div>
-        <a href=""><span>Web</span>Studio</a>
+        <a href=""><span class="main-page">Web</span>Studio</a>
         <address>г. Киев, пр-т Леси Украинки, 26</address>
         <address>
           <a href="info@example.com">info@example.com</a><br />
@@ -51,18 +186,26 @@
 
       <div>
         <p>присоединяйтесь</p>
-        <ul>
+        <ul class="social-link list">
           <li>
-            <a href=""><img src="./html/img/dz/instagram2.png" alt="" /></a>
+            <a href="" class="social"
+              ><img src="./html/img/dz/instagram2.png" alt=""
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./html/img/dz/twitter1.png" alt="" /></a>
+            <a href="" class="social"
+              ><img src="./html/img/dz/twitter1.png" alt=""
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./html/img/dz/facebook1.png" alt="" /></a>
+            <a href="" class="social"
+              ><img src="./html/img/dz/facebook1.png" alt=""
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./html/img/dz/linkedin1.png" alt="" /></a>
+            <a href="" class="social"
+              ><img src="./html/img/dz/linkedin1.png" alt=""
+            /></a>
           </li>
         </ul>
       </div>

@@ -1,0 +1,65 @@
+:root {
+   --primary-background-color: #E5E5E5;
+   --primary-text-color: #757575;
+   --secondary-text-color: #212121;
+   --title-text-color:  #FFFFFF;
+   --accent-color: #2196F3;
+   --secondary-bg-color: #F5F4FA;
+}
+
+.list{
+   list-style: none;
+}
+
+.filter-button{
+   color: var(--secondary-text-color);
+   background-color: var(--secondary-bg-color);
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.6;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+
+.filter-button:hover,
+.filter-button:focus{
+   color: var(--title-text-color);
+   background-color: var(--accent-color);
+}
+
+
+.project-card{
+   background-color: var(--title-text-color);
+}
+
+.project-title{
+   color: var(--secondary-text-color);
+   font-family: 'Roboto';
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   text-decoration: none;
+}
+
+.project-filter{
+   color: var(--primary-text-color);
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.9;
+   letter-spacing: 0.03em;
+   text-decoration: none;
+}
+
+.project-around{
+   color: var(--title-text-color);
+   background-color: var(--accent-color);
+   font-family: 'Roboto';
+   font-size: 18px;
+   line-height: 1.6;
+   letter-spacing: 0.03em;
+   font-weight: 400;
+   text-decoration: none;
+}
